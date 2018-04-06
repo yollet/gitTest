@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  OPGLDemo
+//  YolletPodTest
 //
-//  Created by yollet on 2018/4/3.
+//  Created by yollet on 2018/4/6.
 //  Copyright © 2018年 yollet. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,15 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
-    RootViewController *root = [[RootViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];
-    self.window.rootViewController = nav;
-    
     return YES;
 }
 
